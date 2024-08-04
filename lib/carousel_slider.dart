@@ -39,7 +39,7 @@ class CarouselSlider extends StatefulWidget {
       {required this.items,
       required this.options,
       this.disableGesture,
-      CarouselController? carouselController,
+      KCarousel.CarouselController? carouselController,
       Key? key})
       : itemBuilder = null,
         itemCount = items != null ? items.length : 0,
@@ -54,7 +54,7 @@ class CarouselSlider extends StatefulWidget {
       required this.itemBuilder,
       required this.options,
       this.disableGesture,
-      CarouselController? carouselController,
+      KCarousel.CarouselController? carouselController,
       Key? key})
       : items = null,
         _carouselController = carouselController != null
